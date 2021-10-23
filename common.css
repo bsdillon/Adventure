@@ -7,6 +7,14 @@ body { background-color: black;
  width:100%;
 }
 
+.scene {
+  width:25%;
+}
+
+.scene img {
+  width: 500;
+}
+
 .story h1{
   text-align: center;
   font-family: Monotype Corsiva;
@@ -17,6 +25,10 @@ body { background-color: black;
   height:400;
 }
 
+.story .dialog {
+  color:#303090;
+}
+
 .story p{
   font-family: "Brush Script MT", Brush Script Std, fatasy;
   text-align: center;
@@ -24,7 +36,23 @@ body { background-color: black;
   color:#903030;
 }
 
+.story ul{
+  padding-left: 150px;
+  align:left;
+  width:50%;
+  list-style-image: url('dagger.png');
+}
+
+.story ul li{
+  align:left;
+  font-family: "Brush Script MT", Brush Script Std, fatasy;
+  text-align: center;
+  font-size: 40px;
+  color:#903030;
+}
+
 .scrollable {
+  height:400;
   overflow-y: scroll;
 }
 
